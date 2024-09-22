@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  ohtelz-docs:
+    build: .
+    container_name: ohtelz-docs
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/ohtelz-docs
+    command: bash -c "cd ./output && python -m pelican.server"
+    environment:
+      - PYTHONUNBUFFERED=1
