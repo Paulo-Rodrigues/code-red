@@ -1,5 +1,5 @@
-AUTHOR = 'Rebase Crew'
-SITENAME = 'Ohtelz-docs'
+AUTHOR = 'Paulo Rodrigues'
+SITENAME = 'Code Red'
 SITEURL = ""
 
 PATH = "content"

@@ -1,6 +1,6 @@
 FROM python:3.12.6
 
-WORKDIR /ohtelz-docs
+WORKDIR /code-red
 
 COPY requirements.txt .
 

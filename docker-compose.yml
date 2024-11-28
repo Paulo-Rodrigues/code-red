@@ -1,13 +1,13 @@
 version: "3.9"
 
 services:
-  ohtelz-docs:
+  code-red:
     build: .
-    container_name: ohtelz-docs
+    container_name: code-red
     ports:
       - 8000:8000
     volumes:
-      - .:/ohtelz-docs
+      - .:/code-red
     command: bash -c "cd ./output && python -m pelican.server"
     environment:
       - PYTHONUNBUFFERED=1
